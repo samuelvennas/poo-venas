@@ -2,6 +2,8 @@ package atividade_livro;
 
 public class Livro {
 
+    //Atributos da class
+
     private  String titulo;
     private String autor;
     private int NumeroDePaginas;
@@ -10,7 +12,9 @@ public class Livro {
     
 
     
+        //construtor
 
+        
     public Livro(String titulo, String autor, int numeroDePaginas, Double preco) {
         this.titulo = titulo;
         this.autor = autor;
